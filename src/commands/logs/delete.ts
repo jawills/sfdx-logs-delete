@@ -14,7 +14,7 @@ Messages.importMessagesDirectory(__dirname);
 
 // Load the specific messages for this file. Messages from @salesforce/command, @salesforce/core,
 // or any library that is using the messages framework can also be loaded this way.
-const messages = Messages.loadMessages('sfdx-test', 'org');
+const messages = Messages.loadMessages('sfdx-logs-delete', 'logs');
 
 export default class Org extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
@@ -45,8 +45,6 @@ export default class Org extends SfdxCommand {
   protected static requiresProject = false;
 
   public async run(): Promise<AnyJson> {
-    const name = (this.flags.name || 'world') as string;
-
     // this.org is guaranteed because requiresUsername=true, as opposed to supportsUsername
     const conn = this.org.getConnection();
     const query = 'Select Id from ApexLog';

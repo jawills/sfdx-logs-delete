@@ -5,3 +5,10 @@ An SFDX CLI plugin that deletes all apex logs for an organization. This works fo
 ## Usage
 
 ``` sfdx logs:delete -u instance-name ```
+
+## Installation
+``` sfdx plugins:install sfdx-logs-delete ```
+
+## Version History
+
+- 1.0.0 - initial release
