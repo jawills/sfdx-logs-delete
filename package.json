@@ -1,6 +1,6 @@
 {
-  "name": "sfdx-test",
-  "description": "test",
+  "name": "sfdx-logs-delete",
+  "description": "delete apex logs from SF org",
   "version": "0.0.0",
   "author": "Justin Wills @jawills",
   "bugs": "https://github.com/jawills/sfdx-logs-delete/issues",
