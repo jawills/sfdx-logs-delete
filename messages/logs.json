@@ -4,7 +4,6 @@
   "forceFlagDescription": "example boolean flag",
   "errorNoLogs": "No Apex logs found for deletion",
   "examples": [
-    "sfdx hello:org --targetusername myOrg@example.com --targetdevhubusername devhub@org.com",
-    "sfdx hello:org --name myname --targetusername myOrg@example.com"
+    "sfdx logs:delete --u myOrg@example.com"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "sfdx-logs-delete",
   "description": "delete apex logs from SF org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Justin Wills @jawills",
   "bugs": "https://github.com/jawills/sfdx-logs-delete/issues",
   "dependencies": {
