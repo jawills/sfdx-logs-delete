@@ -85,12 +85,6 @@ export default class Org extends SfdxCommand {
     const outputString = `Deleted ${recordCount} apex logs.`;
     this.ux.log(outputString);
 
-    // this.hubOrg is NOT guaranteed because supportsHubOrgUsername=true, as opposed to requiresHubOrgUsername.
-    if (this.hubOrg) {
-      const hubOrgId = this.hubOrg.getOrgId();
-      this.ux.log(`My hub org id is: ${hubOrgId}`);
-    }
-
     if (this.flags.force && this.args.file) {
       this.ux.log(`You input --force and a file: ${this.args.file as string}`);
     }
