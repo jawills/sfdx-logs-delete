@@ -15,5 +15,6 @@ Please watch the following [Youtube](https://youtu.be/dg9MY3lmO8E) video to see 
 
 ## Version History
 
+- 1.0.2 - Removed hub org flag
 - 1.0.1 - added YT link + fixed --help text
 - 1.0.0 - initial release
